@@ -10,7 +10,7 @@ body {
   body::before {
     content: "";
     position: fixed;
-    background: #040404 url("../img/bg1.png") top right no-repeat;
+    background: #040404 url("../img/bg(b).jpg") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
@@ -55,3 +55,9 @@ body {
     font-size: 72px;
     padding: 1% 0  ;
   }
+
+  @media (max-width:600px){
+  body::before{
+    background-position-x: 90%;
+  }
+}
