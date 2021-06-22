@@ -1,0 +1,29 @@
+
+.container.svg *, .container.svg *,:before, :after {
+    box-sizing: inherit;
+}
+body {
+    width: 100%;
+    position: relative;
+}
+.container.svg{
+    width: 200%;
+    height: 100vh;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    right: 0%;
+    left: 0%;
+    z-index: 1000;
+    max-width: 100%;
+}
+svg {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+    fill: none;
+}
